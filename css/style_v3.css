@@ -1,0 +1,138 @@
+p, h1,h2,h3,ul {
+font-family: 'Droid Sans', sans-serif;
+color: white;
+
+}
+
+
+
+/*
+
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+body:before {
+    top: 10px;
+}
+body:after {
+    bottom: 10px;
+}
+*/
+body {
+    border-left: 10px solid #505050;
+    border-right: 10px solid #505050;
+    border-top: 10px solid #505050;
+    border-bottom: 10px solid #505050;
+    background-color: #505050;
+    font-size:16px
+}
+
+
+
+html {
+background-color:#505050;
+}
+
+
+
+
+
+/*Navigation Animation*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* center the navbar*/
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+.center .navbar-inner {
+    text-align:center;
+}
+
+.center .dropdown-menu {
+    text-align: left;
+}
+.ross {
+        height: 80px;
+        padding-bottom:40px:
+    
+       
+        
+}
+
+.firstname {
+font-family:'Times New Roman', serif;
+text-transform:uppercase;
+letter-spacing:0.2em;
+color:white;
+
+}
+
+.lastname {
+font-family:'Times New Roman', serif;
+text-transform:uppercase;
+color:white;
+letter-spacing:0.2em;
+
+
+/
